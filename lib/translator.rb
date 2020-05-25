@@ -35,4 +35,4 @@ def get_english_meaning(file, japanese_emote)
   }
 end
 
-load_library
+# load_library
