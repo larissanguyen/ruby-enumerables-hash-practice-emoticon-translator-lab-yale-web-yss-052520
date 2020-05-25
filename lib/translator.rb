@@ -19,7 +19,8 @@ def get_japanese_emoticon(file, american_emote)
   # code goes here
   library = load_library(file)
   library.each { |word, emotes|
-    
+    if emotes[english] == american_emote
+      
   }
 end
 
