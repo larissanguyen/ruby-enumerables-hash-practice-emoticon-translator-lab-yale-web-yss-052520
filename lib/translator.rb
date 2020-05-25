@@ -33,6 +33,7 @@ def get_english_meaning(file, japanese_emote)
       return word
     end
   }
+  "Sorry, that emoticon was not found"
 end
 
 # load_library
