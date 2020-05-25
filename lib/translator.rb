@@ -12,7 +12,7 @@ def load_library
       japanese: loaded_library[emotion][1]
     }  
   }
-  puts new_library
+  pp new_library
 end
 
 def get_japanese_emoticon
