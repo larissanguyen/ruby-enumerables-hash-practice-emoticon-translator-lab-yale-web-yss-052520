@@ -29,7 +29,7 @@ def get_english_meaning(file, japanese_emote)
   # code goes here
   library = load_library(file)
   library.each { |word, emotes|
-    if emotes[english] == american_emote
+    if emotes[japanese] == american_emote
       return emotes[japanese]
     end
   }
