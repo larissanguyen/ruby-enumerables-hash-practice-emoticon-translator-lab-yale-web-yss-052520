@@ -8,7 +8,7 @@ def load_library
   
   loaded_library.each { |emotion|
     new_library[emotion] = {
-      
+      english: 
       
     }  
   }
