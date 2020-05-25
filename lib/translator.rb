@@ -20,7 +20,7 @@ def get_japanese_emoticon(file, american_emote)
   library = load_library(file)
   library.each { |word, emotes|
     if emotes[:english] == american_emote
-      return emotes[japanese]
+      return emotes[:japanese]
     end
   }
 end
@@ -30,7 +30,7 @@ def get_english_meaning(file, japanese_emote)
   library = load_library(file)
   library.each { |word, emotes|
     if emotes[:japanese] == japanese_emote
-      return emotes[english]
+      return emotes[:english]
     end
   }
 end
