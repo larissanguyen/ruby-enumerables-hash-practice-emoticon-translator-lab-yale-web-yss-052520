@@ -23,6 +23,7 @@ def get_japanese_emoticon(file, american_emote)
       return emotes[:japanese]
     end
   }
+  return "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning(file, japanese_emote)
