@@ -7,7 +7,7 @@ def load_library
   new_library = {}
   
   loaded_library.each { |emotion|
-    
+    new_library[emotion]
   }
 end
 
